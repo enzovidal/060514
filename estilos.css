@@ -16,6 +16,36 @@ body {
 	position: relative;
 }
 
-#cabecera {
+#cabecera, #contenido, #pie {
+	float: left;
+	min-height: 100px;
+	position: relative;
+	width: 100%;
+}
 
+#cabecera {
+	background: #999;
+}
+
+#barra_menu {
+	background: #ccc;
+	float: left;
+	min-height: 40px;
+	width: 100%;
+}
+
+#contenido {
+	background: #666;
+}
+
+#logo {
+	background: #ccc;
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+}
+
+#pie {
+	background: #333;
 }
